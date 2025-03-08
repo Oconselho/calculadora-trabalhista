@@ -13,9 +13,7 @@
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7748164045099852"
      crossorigin="anonymous"></script>
 </head>
-<body><amp-auto-ads type="adsense"
-        data-ad-client="ca-pub-7748164045099852">
-</amp-auto-ads>
+<body>
 
 <h2>Calculadora de Rescisão Trabalhista</h2>
 
