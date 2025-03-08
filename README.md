@@ -10,9 +10,8 @@
         input, select, button { width: 100%; padding: 10px; margin-top: 10px; }
         .resultado { margin-top: 20px; padding: 15px; background-color: #f0f8ff; border-radius: 5px; }
     </style>
-    <script async custom-element="amp-auto-ads"
-        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7748164045099852"
+     crossorigin="anonymous"></script>
 </head>
 <body><amp-auto-ads type="adsense"
         data-ad-client="ca-pub-7748164045099852">
