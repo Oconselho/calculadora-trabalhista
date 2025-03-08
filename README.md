@@ -10,8 +10,13 @@
         input, select, button { width: 100%; padding: 10px; margin-top: 10px; }
         .resultado { margin-top: 20px; padding: 15px; background-color: #f0f8ff; border-radius: 5px; }
     </style>
+    <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+</script>
 </head>
-<body>
+<body><amp-auto-ads type="adsense"
+        data-ad-client="ca-pub-7748164045099852">
+</amp-auto-ads>
 
 <h2>Calculadora de Rescisão Trabalhista</h2>
 
