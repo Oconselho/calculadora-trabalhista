@@ -8,13 +8,13 @@ document.getElementById("calc-form").addEventListener("submit", function(event) 
     let rescisao = 0;
 
     if (tipo === "semJustaCausa") {
-        rescisao = salario * 1.4 + (salario / 12 * tempo); // FGTS + 40% multa + férias proporcionais
+        rescisao = salario * 1.4 + (salario / 12 * tempo);
     } else if (tipo === "justaCausa") {
-        rescisao = salario / 12 * tempo; // Apenas férias proporcionais
+        rescisao = salario / 12 * tempo;
     } else if (tipo === "pedidoDemissao") {
-        rescisao = salario / 12 * tempo; // Salário + férias proporcionais
+        rescisao = salario / 12 * tempo;
     } else if (tipo === "acordo") {
-        rescisao = salario * 1.2 + (salario / 12 * tempo); // FGTS reduzido + multa de 20%
+        rescisao = salario * 1.2 + (salario / 12 * tempo);
     }
 
     document.getElementById("resultado").innerText = `Você tem direito a receber aproximadamente R$ ${rescisao.toFixed(2)}`;
